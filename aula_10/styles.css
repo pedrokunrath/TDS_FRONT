@@ -1,0 +1,51 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000000;
+    margin: 0;
+    padding: 0;}
+
+
+.container{
+    background-image: linear-gradient(to left, #151515, #f8f8f8, #ffffff);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.game{
+    background-color: #ffffff;
+    padding: 6vh 6vh 6vh 6vh;
+    border-radius: 1rem;
+    box-shadow: 0 10px 10px 0 #000000;
+}
+
+.jogo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 35px;
+    gap: 20px;
+} 
+.board {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 9px;
+    margin: auto;
+    max-width: 310px; 
+    color: aliceblue;
+}
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    border: 2px solid rgb(9, 9, 9);
+}

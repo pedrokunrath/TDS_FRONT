@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let roundDraw = !board.includes('');
         if (roundDraw) {
-            statusDisplay.textContent = 'Empate!';
+            statusDisplay.textContent = 'Empate!';  
             gameActive = false;
             return;
         }

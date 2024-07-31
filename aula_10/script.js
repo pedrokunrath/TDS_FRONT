@@ -12,7 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (board[clickedCellIndex] !== '' || !gameActive) {
             return;
-        }
+        }       
+         
+         
+         
+         
 
         handleCellPlayed(clickedCell, clickedCellIndex);
         handleResultValidation();

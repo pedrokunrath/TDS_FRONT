@@ -2,12 +2,14 @@ const tabuleiro = document.getElementsByClassName("campo");
 const resultado = document.getElementById("resultado");
 const resultado_x = document.getElementById("resultado_x"); 
 const resultado_o = document.getElementById("resultado_o")
+const empate = document.getElementById("empate");
+
 
 var ultimo_valor_clicado = "";
 var block_game = false;
 var vitoriaX = 0;
 var vitoriaO = 0;
-
+var cont_empate = 0;
 function marcar(posicao) {
 
     if ((tabuleiro[posicao].innerHTML == "") && (block_game == false)) {
@@ -93,6 +95,9 @@ function valida_tabuleiro(valor) {
         console.log("EMPATE");
         return false;
     }
+}
+function valida_empate() {
+    
 }
 
 function reniciar_jogo() {

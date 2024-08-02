@@ -109,4 +109,74 @@
     margin-top: 20px;
 
   }
-  
+  /* Add this media query at the end of your CSS */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .profile-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .button {
+    max-width: 250px;
+  }
+
+  .project {
+    width: 45%;
+  }
+
+  .imagens-div {
+    width: 75px;
+  }
+
+  .imagens-div-py {
+    width: 25px;
+  }
+
+  .imagens-div-c {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  .profile-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .button {
+    max-width: 200px;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .imagens-div {
+    width: 50px;
+  }
+
+  .imagens-div-py {
+    width: 20px;
+  }
+
+  .imagens-div-c {
+    width: 40px;
+  }
+}

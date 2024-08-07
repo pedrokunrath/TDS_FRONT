@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
-    transition: box-shadow 0.3s ease;
   }
   
   header {
@@ -64,7 +63,7 @@
     width: 100%;
     max-width: 350px;
     padding: 10px;
-    margin: 10px auto;  /* Add this line */
+    margin: 10px auto;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border: none;
